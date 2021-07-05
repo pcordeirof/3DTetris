@@ -420,6 +420,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6265642246100870543}
+  - component: {fileID: 1203569686366277283}
   m_Layer: 0
   m_Name: BlockHolder
   m_TagString: Untagged
@@ -445,3 +446,21 @@ Transform:
   m_Father: {fileID: 9079346492324491500}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1203569686366277283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6760778510341826755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93763178fed04544aa8c505011fcb21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  piece: {fileID: 6760778510341826755}
+  gameConfiguration: {fileID: 11400000, guid: ace531e3954668f4885d40f8d220b625, type: 2}
+  gridSettings: {fileID: 11400000, guid: ef33c2ceebb0f0644b0868727e71e270, type: 2}
+  isMovable: 1
+  spawner: {fileID: 11400000, guid: daa581f9cf160fc44997bd3aa96cce66, type: 2}
+  gameOver: {fileID: 11400000, guid: 1c61eec8406dcb54fa3401f21d720fb0, type: 2}

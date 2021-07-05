@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c36bd980f6887a44bc9935591069704, type: 3}
+  m_Name: GridSettings
+  m_EditorClassIdentifier: 
+  Width: {fileID: 11400000, guid: c9d035d8bfd044449992a8dd93d5cd0d, type: 2}
+  Height: {fileID: 11400000, guid: 932b5382515fec54f9bac4cd33bfc0fc, type: 2}
+  CompleteLineEvent: {fileID: 11400000, guid: 5f0662fed2c520247b250c4cacb0612f, type: 2}
+  GameOverEvent: {fileID: 11400000, guid: 1c61eec8406dcb54fa3401f21d720fb0, type: 2}
