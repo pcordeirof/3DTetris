@@ -20,6 +20,12 @@ public class Spawner : ScriptableObject
             newAssetReference = pieces[Random.Range(0, pieces.Length)];
         }
         LastPiece = newAssetReference;
-        Addressables.InstantiateAsync(newAssetReference);
+        //Addressables.InstantiateAsync(newAssetReference);
+        Addressables.InstantiateAsync(newAssetReference, null, true).Completed += OnLoadDone;
+    }
+
+    private void OnLoadDone(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle<GameObject> obj)
+    {
+        GameObject myGameObject = obj.Result;
     }
 }

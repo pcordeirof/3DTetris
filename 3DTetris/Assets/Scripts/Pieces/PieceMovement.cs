@@ -18,7 +18,7 @@ public class PieceMovement : MonoBehaviour
 
     public GameEvent gameOver;
 
-    void Start()
+    void Awake()
     {
         piece.transform.position = new Vector3(Mathf.FloorToInt(gridSettings.Width.Value / 2), gridSettings.Height.Value, 0f);
     }
